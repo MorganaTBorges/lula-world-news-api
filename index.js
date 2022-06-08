@@ -20,6 +20,21 @@ const newspapers = [
         address: 'https://www.thetimes.co.uk/search?source=nav-desktop&q=lula',
         base: 'https://www.thetimes.co.uk',
     },
+    {
+        name: 'bbc',
+        address: 'https://www.bbc.co.uk/search?q=lula',
+        base: '',
+    },
+    {
+        name: 'reuters',
+        address: 'https://www.reuters.com/search/news?blob=lula',
+        base: 'https://www.reuters.com',
+    },
+    {
+        name: 'lemonde',
+        address: 'https://www.lemonde.fr/international/',
+        base: '',
+    },
 ]
 
 const articles = []
